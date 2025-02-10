@@ -32,6 +32,22 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
+  - id: www-doonsec-com
+    name: www.doonsec.com
+    description: '洞见官网'
+    url: 'http://www.doonsec.com'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: wechat-doonsec-com
+    name: wechat.doonsec.com
+    description: '洞见微信'
+    url: 'https://wechat.doonsec.com'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+  
   - id: blog-cloudflare-com
     name: The Cloudflare Blog
     url: 'https://blog.cloudflare.com/'
