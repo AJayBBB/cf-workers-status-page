@@ -40,6 +40,14 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
+  - id: hub.datasec.wiki
+    name: hub.datasec.wiki
+    description: '洞见微信'
+    url: 'https://hub.datasec.wiki'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
   - id: m.wechat-doonsec-com
     name: m.wechat.doonsec.com
     description: '洞见微信'
